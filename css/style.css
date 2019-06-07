@@ -512,7 +512,7 @@ ul {
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   text-transform: capitalize;
-  background-color: #ef1313;
+  background-color: #2F8E18;
   margin: 0 auto;
 }
 
@@ -561,7 +561,7 @@ ul {
   color: #fff;
   border: 1px solid #fdcb9e;
   text-transform: uppercase;
-  background-color: #ef1313;
+  background-color: #2F8E18;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -1216,7 +1216,7 @@ ul {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #ef1313;
+  background-color: #2F8E18;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -2021,7 +2021,7 @@ ul {
 
 /* line 19, E:/168 Daren Blog/168_Daren_Blog_html/sass/_single_blog.scss */
 .single_blog_post .single_blog .single_appartment_content p a {
-  color: #ef1313;
+  color: #2F8E18;
 }
 
 /* line 23, E:/168 Daren Blog/168_Daren_Blog_html/sass/_single_blog.scss */
@@ -2194,6 +2194,7 @@ ul {
   margin-right: 19px;
   padding-right: 25px;
   border-right: 2px solid #a0a5a7;
+  color: #fff
 }
 
 @media (max-width: 576px) {
@@ -2305,7 +2306,7 @@ ul {
   position: fixed;
   z-index: 9999 !important;
   width: 100%;
-  background-color: #fff;
+  background-color: #4f4f4f;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
   top: 0;
 }
@@ -2545,9 +2546,9 @@ ul {
 /* line 31, E:/168 Daren Blog/168_Daren_Blog_html/sass/_banner.scss */
 .banner_post h5 {
   font-size: 11px;
-  color: #ef1313;
+  color: #2F8E18;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+ font-family: 'Poppins', sans-serif;
   font-weight: 700;
   margin-bottom: 12px;
 }
@@ -2816,9 +2817,9 @@ ul {
 /* line 46, E:/168 Daren Blog/168_Daren_Blog_html/sass/_post_style.scss */
 .post_1 .post_text_1 h5, .post_2 .post_text_1 h5, .post_3 .post_text_1 h5 {
   font-size: 11px;
-  color: #ef1313;
+  color: #2F8E18;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   margin-bottom: 14px;
   -webkit-transition: 0.5s;
@@ -2983,7 +2984,7 @@ ul {
   border-top-right-radius: 10px;
   padding: 15px 30px;
   background-color: #fff;
-  color: #ef1313;
+  color: #2F8E18;
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 600;
@@ -3075,7 +3076,7 @@ ul {
   border-top-left-radius: 10px;
   padding: 15px 30px;
   background-color: #fff;
-  color: #ef1313;
+  color: #2F8E18;
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 600;
@@ -3480,7 +3481,7 @@ ul {
   width: 40px;
   height: 1px;
   bottom: -12px;
-  background-color: #ef1313;
+  background-color:#2F8E18;
   left: 25px;
 }
 
@@ -3491,7 +3492,7 @@ ul {
   width: 15px;
   height: 4px;
   bottom: -13px;
-  background-color: #ef1313;
+  background-color: #2F8E18;
   left: 0px;
 }
 
@@ -3536,7 +3537,7 @@ ul {
 
 /* line 76, E:/168 Daren Blog/168_Daren_Blog_html/sass/_all_post.scss */
 .all_post .sidebar_widget .btn {
-  background-color: #ef1313;
+  background-color: #2F8E18;
   color: #fff;
   width: 50px;
   margin-left: 10px;
@@ -3557,7 +3558,7 @@ ul {
 /* line 90, E:/168 Daren Blog/168_Daren_Blog_html/sass/_all_post.scss */
 .all_post .category ul li a {
   color: #888888;
-  font-family: "Source Serif Pro", serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* line 98, E:/168 Daren Blog/168_Daren_Blog_html/sass/_all_post.scss */
@@ -3575,7 +3576,7 @@ ul {
   transition: all 0.3s ease 0s;
   color: #888888;
   font-size: 13px;
-  font-family: "Source Serif Pro", serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   color: #2a2a2a;
@@ -3772,7 +3773,7 @@ ul {
 
 /* line 68, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
 .footer-area .single-footer-widget .click-btn {
-  background-color: #ef1313;
+  background-color: #2F8E18;
   color: #fff;
   border-radius: 0;
   border-top-left-radius: 0px;
@@ -3826,7 +3827,7 @@ ul {
 /* line 105, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
 .footer-area .contact_info span {
   font-size: 18px;
-  color: #ef1313;
+  color: #2F8E18;
   position: absolute;
   left: 0;
   top: 5px;
@@ -3852,7 +3853,7 @@ ul {
 /* line 126, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
 .footer-area .btn {
   margin-top: 23px;
-  background-color: #ef1313;
+  background-color: #2F8E18;
   color: #fff;
   width: 49px;
   border-radius: 0px;
@@ -3897,7 +3898,7 @@ ul {
 
 /* line 160, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
 .footer-area .copyright_part_text a {
-  color: #ef1313;
+  color: #2F8E18;
 }
 
 /* line 75, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
@@ -3918,7 +3919,7 @@ sup,
 sub,
 u,
 del {
-  color: #ef1313;
+  color: #2F8E18;
 }
 
 /* line 93, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
@@ -4090,21 +4091,21 @@ h6 {
 /* line 217, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #ef1313;
+  background: #2F8E18;
   border: 1px solid transparent;
 }
 
 /* line 221, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .genric-btn.primary:hover {
-  color: #ef1313;
-  border: 1px solid #ef1313;
+  color: #2F8E18
+  border: 1px solid #2F8E18;
   background: #fff;
 }
 
 /* line 227, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .genric-btn.primary-border {
-  color: #ef1313;
-  border: 1px solid #ef1313;
+  color: #2F8E18;
+  border: 1px solid #2F8E18;
   background: #fff;
 }
 
@@ -4269,7 +4270,7 @@ h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #ef1313;
+  border-left: 2px solid #2F8E18;
 }
 
 /* line 353, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
@@ -4424,7 +4425,7 @@ h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #ef1313;
+  border: 3px solid #2F8E18;
   background: #fff;
   top: 4px;
   left: 0;
@@ -4439,7 +4440,7 @@ h6 {
 /* line 475, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #ef1313;
+  color: #2F8E18;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -4454,7 +4455,7 @@ h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #ef1313;
+  color: #2F8E18;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -4469,7 +4470,7 @@ h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #ef1313;
+  color: #2F8E18;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -4552,7 +4553,7 @@ h6 {
 /* line 568, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #ef1313;
+  border: 1px solid #2F8E18;
 }
 
 /* line 574, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
@@ -4620,7 +4621,7 @@ h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #ef1313;
+  background: #2F8E18;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -4711,7 +4712,7 @@ h6 {
 
 /* line 696, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .primary-switch input:checked + label:before {
-  background: #ef1313;
+  background: #2F8E18;
 }
 
 /* line 704, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
@@ -5098,7 +5099,7 @@ h6 {
 
 /* line 1022, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .default-select .nice-select .list .option.selected {
-  color: #ef1313;
+  color: #2F8E18;
   background: transparent;
 }
 
@@ -5161,7 +5162,7 @@ h6 {
 
 /* line 1067, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
 .form-select .nice-select .list .option.selected {
-  color: #ef1313;
+  color: #2F8E18;
   background: transparent;
 }
 
@@ -5354,7 +5355,7 @@ h6 {
 
 /* line 68, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
 .footer-area .single-footer-widget .click-btn {
-  background-color: #ef1313;
+  background-color: #2F8E18;
   color: #fff;
   border-radius: 0;
   border-top-left-radius: 0px;
@@ -5408,7 +5409,7 @@ h6 {
 /* line 105, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
 .footer-area .contact_info span {
   font-size: 18px;
-  color: #ef1313;
+  color: #2F8E18;
   position: absolute;
   left: 0;
   top: 5px;
@@ -5434,7 +5435,7 @@ h6 {
 /* line 126, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
 .footer-area .btn {
   margin-top: 23px;
-  background-color: #ef1313;
+  background-color: #2F8E18;
   color: #fff;
   width: 49px;
   border-radius: 0px;
@@ -5479,7 +5480,7 @@ h6 {
 
 /* line 160, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
 .footer-area .copyright_part_text a {
-  color: #ef1313;
+  color: #2F8E18;
 }
 
 /*# sourceMappingURL=style.css.map */
