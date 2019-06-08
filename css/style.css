@@ -624,12 +624,18 @@ ul {
 
 /* line 10, E:/168 Daren Blog/168_Daren_Blog_html/sass/_blog.scss */
 .blog_area a {
-  color: #666666 !important;
+  color: #2F8E18 !important;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
+.blog_area a:hover {
+  color: #2F8E18 ;
+  text-decoration: underline;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 /* line 16, E:/168 Daren Blog/168_Daren_Blog_html/sass/_blog.scss */
 .load_btn {
   margin-top: 0px !important;
@@ -5482,5 +5488,6 @@ h6 {
 .footer-area .copyright_part_text a {
   color: #2F8E18;
 }
+
 
 /*# sourceMappingURL=style.css.map */
