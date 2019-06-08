@@ -5,7 +5,7 @@
    <!-- Required meta tags -->
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <title>Cisco security spotlights Microsoft Office 365 e-mail phishing increase</title>
+   <title>Start Learning HTML and CSS With This Ultimate Guide</title>
    <link rel="icon" href="img/favicon.png">
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -119,62 +119,340 @@
             <div class="col-lg-8 posts-list">
                <div class="single-post">
                   <div class="feature-img">
-                     <img class="img-fluid" src="img/blog/single_blog.1.jpg" alt="">
+                     <img class="img-fluid" src="img/blog/single_blog.4.jpg" alt="">
                   </div>
                   <div class="blog_details">
-                     <h2>Cisco security spotlights Microsoft Office 365 e-mail phishing increase
+                     <h2>Start Learning HTML and CSS With This Ultimate Guide
                      </h2>
                      <ul class="blog-info-link mt-3 mb-4">
-                        <li><a href="#"><i class="far fa-user"></i> Review</a></li>
+                        <li><a href="#"><i class="far fa-user"></i> Coding</a></li>
                         <li><a href="#"><i class="far fa-comments"></i> 03 Comments</a></li>
                      </ul>
+                     <h2 style="background-color:#f25948;padding: 15px;color: white;font-weight: bold;margin-bottom: 23px; ">This is part of our <a href="https://tylermcginnis.com/courses/advanced-javascript/">Advanced JavaScript course</a>. If you enjoy this post, check it out.</h2>
+                     <h5 style="border-left-style: solid;border-left-color: blue;padding-left: 40px; margin-bottom: 40px;margin-top: 29px;font-size: 24px;">This post is designed to be read after you read JavaScript Inheritance and the Prototype Chain.</h5>
+
+                     <video width="730" height="500" controls>
+                     <source src="video/JavaScript Composition vs Inheritance.mp4" type="video/mp4">
+                     </video>
+
                      <p class="excert">
-                        It’s no secret that if you have a cloud-based e-mail service, fighting off the barrage of security issues has become a maddening daily routine.
+                        <a href="https://tylermcginnis.com/javascript-inheritance-and-the-prototype-chain/">Previously</a> we looked at how to accomplish inheritance in JavaScript using both ES5 and ES6. In our example, we abstracted the common features amongst every animal (name, energy, eat, sleep, and play) to an <button>Animal</button> base class. Then, whenever we wanted to create an individual type of animal (Dog, Cat, etc.), we created a subclass for that type.
                      </p>
-                     <p>The leading e-mail service – in Microsoft’s Office 365 package – seems to be getting the most attention from those attackers hellbent on stealing enterprise data or your private information via phishing attacks. Amazon and Google see their share of phishing attempts in their cloud-based services as well.</p>
 
-<p>But attackers are crafting and launching phishing campaigns targeting Office 365 users, wrote Ben Nahorney, a Threat Intelligence Analyst focused on covering the threat landscape for Cisco Security in a blog focusing on the Office 365 phishing issue.</p>
+   <div class="code">
+   class Animal { <br>
+  constructor(name, energy) {<br>
+    this.name = name<br>
+    this.energy = energy<br>
+  }<br>
+  eat(amount) {<br>
+    console.log(`${this.name} is eating.`)<br>
+    this.energy += amount<br>
+  }<br>
+  sleep() {<br>
+    console.log(`${this.name} is sleeping.`)<br>
+    this.energy += length<br>
+  }<br>
+  play() {<br>
+    console.log(`${this.name} is playing.`)<br>
+    this.energy -= length<br>
+  }<br>
+}<br>
+<br>
+class Dog extends Animal {<br>
+  constructor(name, energy, breed) {<br>
+    super(name, energy)<br>
 
-<p>Nahorney wrote of research from security vendor Agari Data, that found over the last few quarters, there has been a steady increase in the number of phishing emails impersonating Microsoft. While Microsoft has long been the most commonly impersonated brand, it now accounts for more than half of all brand impersonations seen in the last quarter.</p>
+    this.breed = breed<br>
+  }<br>
+  bark() {<br>
+    console.log('Woof Woof!')<br>
+    this.energy -= .1<br>
+  }<br>
+}<br>
+<br>
+class Cat extends Animal {<br>
+  constructor(name, energy, declawed) {<br>
+    super(name, energy)<br>
+<br>
+    this.declawed = declawed<br>
+  }<br>
+  meow() {<br>
+    console.log('Meow!')<br>
+    this.energy -= .1<br>
+  }<br>
+}<br>
+</div>
+                     
 
-<p>Recently cloud security firm Avanan wrote in its annual phishing report, one in every 99 emails is a phishing attack, using malicious links and attachments as the main vector.  “Of the phishing attacks we analyzed, 25 percent bypassed Office 365 security, a number that is likely to increase as attackers design new obfuscation methods that take advantage of zero-day vulnerabilities on the platform,” Avanan wrote.</p>
+<p>And without the code, we can visualize our class structure like this.</p>
 
-<p>The attackers attempt to steal a user’s login credentials with the goal of taking over accounts. If successful, attackers can often log into the compromised accounts, and perform a wide variety of malicious activity: Spread malware, spam and phishing emails from within the internal network;  carry out tailored attacks such as spear phishing and business email compromise [a long-standing business scam that uses spear-phishing, social engineering, identity theft, e-mail spoofing], and target partners and customers, Nahorney wrote.</p>
+<div class="code">
+  Animal<br>
+   name<br>
+   energy<br>
+   eat()<br>
+   sleep()<br>
+   play()<br>
+<br>
+  Dog<br>
+    breed<br>
+    bark()<br>
+<br>
+  Cat<br>
+    declawed<br>
+    meow()<br>
+</div>
 
-<p>Nahorney wrote that at first glance, this may not seem very different than external email-based attacks. However, there is one critical distinction: The malicious emails sent are now coming from legitimate accounts.</p>
+<p>This worked well as it allowed us to minimize code duplication and maximize code reuse.</p>
 
-<p>“For the recipient, it’s often even someone that they know, eliciting trust in a way that would not necessarily be afforded to an unknown source. To make things more complicated, attackers often leverage ‘conversation hijacking,’ where they deliver their payload by replying to an email that’s already located in the compromised inbox,” Nahorney stated.</p>
+<p>Let's take this a step further and pretend we're building software for "Farm Fantasy" - a massively multiplayer online (MMO) role-playing game where you do the same thing a farmer does, except, you know, online and you pay to do it.</p>
 
-<p>The methods used by attackers to gain access to an Office 365 account are fairly straightforward, Nahorney wrote.</p>   
+<p>Now that we're creating an MMO, we're going to need to have users. We can update our class structure now to look like this.</p>
 
-<p>“The phishing campaigns usually take the form of an email from Microsoft. The email contains a request to log in, claiming the user needs to reset their password, hasn’t logged in recently or that there’s a problem with the account that needs their attention. A URL is included, enticing the reader to click to remedy the issue,” Nahorney wrote.</p>
+<div class="code">
+  User<br>
+  email<br>
+  username<br>
+  pets<br>
+  friends<br>
+  adopt()<br>
+  befriend()<br>
+<br>
+Animal<br>
+  name<br>
+  energy<br>
+  eat()<br>
+  sleep()<br>
+  play()<br>
+<br>
+  Dog<br>
+    breed<br>
+    bark()<br>
+<br>
+  Cat<br>
+    declawed<br>
+    meow()<br>
+</div>
 
-<p>Once logged in, nefarious activities can go on unnoticed as the attacker has what look like authorized credentials.</p> 
+<p>The examples above are textbook examples of classes and inheritance. Sadly, unlike in the classroom, real-world software development isn't always so predictable.</p>
 
-<p>“This gives the attacker time for reconnaissance: a chance to observe and plan additional attacks. Nor will this type of attack set off a security alert in the same way something like a brute-force attack against a webmail client will, where the attacker guesses password after password until they get in or are detected,” Nahorney  stated.</p>
 
-<p>Nahorney suggested the following steps customers can take to protect email:
-<ul>
-   <li> - Use multi-factor authentication. If a login attempt requires a secondary authorization before someone is allowed access to an inbox, this will stop many attackers, even with phished credentials.</li>
-   <li> - Deploy advanced anti-phishing technologies. Some machine-learning technologies can use local identity and relationship modeling alongside behavioral analytics to spot deception-based threats.</li>
-   <li> - Run regular phishing exercises. Regular, mandated phishing exercises across the entire organization will help to train employees to recognize phishing emails, so that they don’t click on malicious URLs, or enter their credentials into malicious website.</li>
-</ul>
-</p>
-<h4>Homeland Security flags Office 365, other cloud email services</h4>
-<p>The U.S. government, too, has been warning customers of Office 365 and other cloud-based email services that they should be on alert for security risks. The US Department of Homeland Security's Cybersecurity and Infrastructure Security Agency (CISA) this month <a href="https://www.us-cert.gov/ncas/analysis-reports/AR19-133A" style="color: #2F8E18">issued a report targeting</a> Office 365 and other cloud services saying:</p>
+<p>Let's say six months after building out our initial class structure, our project manager decides we need to change some things. Users love the app and the ability to pay to be a pretend farmer, but they want a more real-life experience. Right now, only instances of Animal have the ability to <button>eat</button>, <button>sleep</button>, and <button>play</button>. The users are demanding that they also have those same features.</p>
 
-<p>“Organizations that used a third party have had a mix of configurations that lowered their overall security posture (e.g., mailbox auditing disabled, unified audit log disabled, multi-factor authentication disabled on admin accounts). In addition, the majority of these organizations did not have a dedicated IT security team to focus on their security in the cloud. These security oversights have led to user and mailbox compromises and vulnerabilities.”</p>
+<p>Alright, no issue. We just need to adjust our class structure around a little bit.</p>
 
-<p>
-   The agency also posted remediation suggestions including:
-   <ul>
-      <li>Enable unified audit logging in the Security and Compliance Center.</li>
-      <li>Enable mailbox auditing for each user.</li>
-      <li>Ensure Azure AD password sync is planned for and configured correctly, prior to migrating users.</li>
-      <li>Disable legacy email protocols, if not required, or limit their use to specific users.</li>
-   </ul>
-</p>
-<p>This story, "Cisco security spotlights Microsoft Office 365 e-mail phishing increase" was originally published by <a href="https://www.networkworld.com/" style="color: #2F8E18">Network World</a>.</p>
+<div class="code">
+... 🤔
+</div>
+
+<p>I guess we could abstract the common properties to another parent class and have one more step of inheritance.</p>
+
+<div class="code">
+FarmFantasy<br>
+  <br>
+  play()<br>
+  sleep()<br>
+  eat()<br>
+<br>
+  User<br>
+    email<br>
+    username<br>
+    pets<br>
+    friends<br>
+    adopt()<br>
+    befriend()<br>
+<br>
+  Animal<br>
+    energy<br>
+<br>
+    Dog<br>
+      breed<br>
+      bark()<br>
+<br>
+    Cat<br>
+      declawed<br>
+      meow()<br>
+</div>
+
+<p>That works, but it's incredibly fragile. There's even a name for this anti-pattern -<a href="https://en.wikipedia.org/wiki/God_object">God object</a>.</p>
+
+<p>And just like that, we see the most significant weakness with inheritance. With inheritance, you structure your classes around what they are, a <BUTTON>User</BUTTON>, an <button>Animal</button>, a <button>Dog</button>, a <button>Cat</button> - all of those words encapsulate a meaning centered around what those things are. The problem with that is a <button>User</button> today will probably be different than a <button>User</button> in 6 months. Inheritance makes us turn a blind eye to the inevitable fact that our class structure will most likely change in the future, and when it does, our tightly coupled inheritance structure is going to crumble.</p>
+
+<p>The problem with object-oriented languages is they’ve got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle. - Joe Armstrong. Creator of Erlang.</p>
+
+<p>So if inheritance is such a problem, how do we get the same functionality while minimizing some of the downsides? Rather than thinking in terms of what things are, what if we think in terms of what things do? Let's take a Dog, for example. A Dog is a sleeper, eater, player, and barker. A Cat is a sleeper, eater, player, and meower. A User is a sleeper, eater, player, adopter, and friender. Now let's transform all of these verbs into functions.</p>
+
+<div class="code">
+   const eater = () => ({})<br>
+const sleeper = () => ({})<br>
+const player = () => ({})<br>
+const barker = () => ({})<br>
+const meower = () => ({})<br>
+const adopter = () => ({})<br>
+const friender = () => ({})<br>
+</div>
+
+<p>Do you see where we're going with this? Instead of having these methods defined (and coupled) to a particular class, if we abstract them into their own functions, we can now compose them together with any type that needs them.</p>
+
+<p>Let's take a closer look at one of our methods again, <button>eat</button>.</p>
+
+<div class="code">
+eat(amount) {<br>
+  console.log(`${this.name} is eating.`)<br>
+  this.energy += amount<br>
+}
+</div>
+
+<p>Notice that <button>eat</button> logs to the console then increases the <button>energy</button> property on the instance by the <button>amount</button> argument. Now the question we need to answer is how we can operate on a specific instance from a one-off function? Well, what if we just pass it in when we invoke the function? Seems simple enough.</p>
+
+<div class="code">
+   const eater = (state) => ({<br>
+  eat(amount) {<br>
+    console.log(`${state.name} is eating.`)<br>
+    state.energy += amount<br>
+  }<br>
+})<br>
+</div>
+
+<p>Now we can follow this same pattern for each one of our functions.</p>
+
+<div class="code">
+   ...<br>
+<br>
+const sleeper = (state) => ({<br>
+  sleep(length) {<br>
+    console.log(`${state.name} is sleeping.`)<br>
+    state.energy += length<br>
+  }<br>
+})<br>
+<br>
+const player = (state) => ({<br>
+  play() {<br>
+    console.log(`${state.name} is playing.`)<br>
+    state.energy -= length<br>
+  }<br>
+})<br>
+<br>
+const barker = (state) => ({<br>
+  bark() {<br>
+    console.log('Woof Woof!')<br>
+    state.energy -= .1<br>
+  }<br>
+})<br>
+<br>
+const meower = (state) => ({<br>
+  meow() {<br>
+    console.log('Meow!')<br>
+    state.energy -= .1<br>
+  }<br>
+})<br>
+<br>
+const adopter = (state) => ({<br>
+  adopt(pet) {<br>
+    state.pets.push(pet)<br>
+  }<br>
+})<br>
+<br>
+const friender = (state) => ({<br>
+  befriend(friend) {<br>
+    state.friends.push(friend)<br>
+  }<br>
+})<br>
+</div>
+
+<p>Now whenever a Dog, Cat, or User needs to add the ability to do any of the functions above, they merge the object they get from one of the functions onto their own object.</p>
+
+<p>Let's see what that looks like. We'll start with a Dog. Earlier we defined a Dog by what it does, a Dog is a <button>sleeper</button>, <button>eater,</button> <button>player</button>, and <button>barker</button>.</p>
+
+<div class="code">
+   function Dog (name, energy, breed) {<br>
+  let dog = {<br>
+    name,<br>
+    energy,<br>
+    breed,<br>
+  }<br>
+<br>
+  return Object.assign(<br>
+    dog,<br>
+    eater(dog),<br>
+    sleeper(dog),<br>
+    player(dog),<br>
+    barker(dog),<br>
+  )<br>
+}<br>
+<br>
+const leo = Dog('Leo', 10, 'Goldendoodle')<br>
+leo.eat(10) // Leo is eating<br>
+leo.bark() // Woof Woof!<br>
+</div>
+
+<p>Inside of <button>Dog</button> we create the "instance" using a plain old JavaScript object. Then we use <<button>Object.assign</button> to merge the dog's state with all of the methods a dog should have - each defined by what a dog does, not what it is.</p>
+
+<p>Now how would we create a Cat class? Earlier we defined a Cat as a <button>sleeper</button>, <button>eater</button>, <button>player</button>, and <button>meower</button>.</p>
+
+<div class="code">
+   function Cat (name, energy, declawed) {<br>
+  let cat = {<br>
+    name,<br>
+    energy,<br>
+    declawed,<br>
+  }<br>
+<br>
+  return Object.assign(<br>
+    cat,<br>
+    eater(cat),<br>
+    sleeper(cat),<br>
+    player(cat),<br>
+    meower(cat),<br>
+  )<br>
+}<br>
+</div>
+
+<p>Now, what about a <button>User</button>? Earlier we ran into issues when we needed to refactor our class structure so that users could also <button>sleep</button>, <button>eat</button>, and <button>play</button>. Now that we've decoupled our functions from the class hierarchy, this is trivial to do.</p>
+
+<div class="code">
+   unction User (email, username) {<br>
+  let user = {<br>
+    email,<br>
+    username,<br>
+    pets: [],<br>
+    friends: []<br>
+  }<br>
+<br>
+  return Object.assign(<br>
+    user,<br>
+    eater(user),<br>
+    sleeper(user),<br>
+    player(user),<br>
+    adopter(user),<br>
+    friender(user),<br>
+  )<br>
+}<br>
+</div>
+
+<p>To really test our theory, what if we wanted to give all dogs the ability to add friends as well. This wasn't in our initial requirement but with composition, it's pretty straight forward.</p>
+
+<div class="code">
+   function Dog (name, energy, breed) {<br>
+  let dog = {<br>
+    name,<br>
+    energy,<br>
+    breed,<br>
+    friends: []<br>
+  }<br>
+<br>
+  return Object.assign(<br>
+    dog,<br>
+    eater(dog),<br>
+    sleeper(dog),<br>
+    player(dog),<br>
+    barker(dog),<br>
+    friender(dog),<br>
+  )<br>
+}<br>
+</div>
+
 
 
                      
