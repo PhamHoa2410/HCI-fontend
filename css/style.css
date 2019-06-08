@@ -5489,5 +5489,12 @@ h6 {
   color: #2F8E18;
 }
 
+.code{
+  background-color: #0b036b; 
+  color: white; 
+  width: 730px; 
+  padding: 23px; 
+  margin-bottom: 42px
+}
 
 /*# sourceMappingURL=style.css.map */
