@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+	width: 100%;
+	height: 100px;
+	background-color: #4f4f4f;
+	display: flex;
+	justify-content: space-around;
+}
+.container{
+  height: auto;
+  color: #fff;
+}
+.container img{
+	height: 90px;
+	width: 90px
+}
+.search{
+	width: 732px;
+	margin-top: 20px
+}
