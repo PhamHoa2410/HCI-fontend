@@ -2072,10 +2072,13 @@ ul {
 .main_menu .navbar-brand {
   padding-top: 0rem;
 }
-
+.main_menu .navbar-brand img{
+  width: 120px;
+  height: 100px
+}
 /* line 7, E:/168 Daren Blog/168_Daren_Blog_html/sass/_menu.scss */
 .main_menu .navbar {
-  padding: 33px 0px;
+  padding: 20px 0px;
 }
 
 @media (max-width: 576px) {
@@ -2321,7 +2324,7 @@ ul {
 
 /* line 205, E:/168 Daren Blog/168_Daren_Blog_html/sass/_menu.scss */
 .menu_fixed span {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 @media (max-width: 576px) {
@@ -2379,7 +2382,9 @@ ul {
     right: 0;
     text-align: center;
     margin: 0 auto;
-    top: 24px;
+    top: 5px;
+    width: 60px;
+    height: 50px;
   }
   /* line 271, E:/168 Daren Blog/168_Daren_Blog_html/sass/_menu.scss */
   .navbar-collapse {
@@ -2430,7 +2435,9 @@ ul {
     right: 0;
     text-align: center;
     margin: 0 auto;
-    top: 29px;
+    top: 5px;
+    width: 60px;
+    height: 50px;
   }
   /* line 325, E:/168 Daren Blog/168_Daren_Blog_html/sass/_menu.scss */
   .navbar-collapse {
