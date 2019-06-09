@@ -626,18 +626,12 @@ ul {
 
 /* line 10, E:/168 Daren Blog/168_Daren_Blog_html/sass/_blog.scss */
 .blog_area a {
-  color: #2F8E18 !important;
+  color: #888;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.blog_area a:hover {
-  color: #2F8E18 ;
-  text-decoration: underline;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
 /* line 16, E:/168 Daren Blog/168_Daren_Blog_html/sass/_blog.scss */
 .load_btn {
   margin-top: 0px !important;
@@ -2350,6 +2344,7 @@ ul {
   /* line 231, E:/168 Daren Blog/168_Daren_Blog_html/sass/_menu.scss */
   .main_menu .main-menu-item .nav-item {
     padding: 5px 15px !important;
+    background-color: #4f4f4f
   }
   /* line 234, E:/168 Daren Blog/168_Daren_Blog_html/sass/_menu.scss */
   .main_menu .main-menu-item .nav-item a {
@@ -2403,6 +2398,7 @@ ul {
   /* line 285, E:/168 Daren Blog/168_Daren_Blog_html/sass/_menu.scss */
   .main_menu .main-menu-item .nav-item {
     padding: 10px 15px !important;
+    background-color: #4f4f4f
   }
   /* line 288, E:/168 Daren Blog/168_Daren_Blog_html/sass/_menu.scss */
   .main_menu .main-menu-item .nav-item a {
@@ -2446,7 +2442,7 @@ ul {
     left: 0;
     top: 71px;
     width: 100%;
-    background-color: #fff;
+    background-color: #;
     text-align: center !important;
   }
   /* line 336, E:/168 Daren Blog/168_Daren_Blog_html/sass/_menu.scss */
@@ -3575,7 +3571,9 @@ ul {
   color: #888888;
   font-family: 'Poppins', sans-serif;
 }
-
+.all_post .category ul li a:hover{
+  text-decoration: underline;
+}
 /* line 98, E:/168 Daren Blog/168_Daren_Blog_html/sass/_all_post.scss */
 .all_post .tags ul li {
   display: inline-block;
