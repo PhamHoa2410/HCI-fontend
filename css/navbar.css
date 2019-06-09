@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	height: 0px
+}
+.navbar{
+	width: 100%;
+	background-color: #4f4f4f;
+	height: 50px;
+}
+.container{
+	height: 50px;
+  margin-top: 0px
+}
+
+.navbar-left{
+	height: 100%;
+	width: 240px;
+	display: flex;
+	justify-content: space-between;
+}
+.navbar-left i{
+	color: #fff;
+	margin-top: 10px
+}
+.navbar-right{
+	height: 100%;
+	width: 400px;
+}
+.wrap {
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  float: right;
+  padding: 0;
+  position: relative;
+}
+
+input[type="text"] {
+  height: 50px;
+  font-size: 15px;
+  display: inline-block;
+  font-weight: 100;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 3px;
+  padding-right: 60px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  z-index: 3;
+  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+  cursor: pointer;
+}
+
+input[type="text"]:focus:hover {
+  border-bottom: 1px solid #fff;
+}
+
+input[type="text"]:focus {
+  width: 400px;
+  z-index: 1;
+  border-bottom: 1px solid #;
+  cursor: text;
+}
+input[type="submit"] {
+  height: 50px;
+  width: 63px;
+  display: inline-block;
+  color:red;
+  float: right;
+  text-indent: -10000px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity .4s ease;
+  background-color: #4f4f4f;
+}
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+.banner{
+	width: 100%;
+	height: 400px
+}
+.submenu{
+	width: 100%;
+	background-color: #4f4f4f;
+	height: 100px;
+}
+.submenu .container{
+	display: flex;
+	justify-content: space-between;
+}
+.submenu button{
+	height: 100px;
+	width: 196px;
+	background-color: #4f4f4f;
+	border: none
+}
+.submenu a{
+	font-size: 28px;
+	color: #fff;
+	text-decoration: none;
+}
+.submenu button:hover{
+	background-color: #2F8E18
+}
+/*------------contact--------------*/
+.footer{
+  width: 100%;
+  height: 700px;
+  background-color: #f1f1f1;
+}
+.footer .container{
+   display: flex;
+  justify-content: space-between;
+}
+.footer .contact{
+    height: 530px;
+    width: 460px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.footer .contact h2{
+  font-size: 26px;
+  margin-top: 130px
+}
+.footer .contact form{
+  width: 100%;
+  height: 150px;
+  margin-top: 40px
+}
+.footer .contact input[type ="name"]{
+  width: 440px;
+  height: 60px;
+  padding: 7px;
+  margin-bottom: 32px
+}
+.footer .contact button{
+  width: 125px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: #f1f1f1
+}
+.footer .contact button:hover{
+  border-bottom: 2px solid #000;
+  width: 200px;
+  transition: 0.5s ease-in-out;
+}
+.footer .contact button a{
+  font-size: 26px;
+  text-decoration: none;
+  color: #4f4f4f
+}
+.footer .contact a:hover{
+  font-size: 28px;
+  transition: 0.5s ease-in-out;
+  color: #2F8E18
+}
+.social{
+  height: 50px;
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 35px
+}
+.footer .infor{
+  height: 530px;
+  width: 540px;
+}
+.footer .infor .logo{
+  width: 540px ;
+  height:166px; 
+  background-color: #000
+}
+.footer .infor .noidung{
+  height: 241px;
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px
+}
+.footer .infor .noidung > div{
+  height: 241px;
+  width: 255px;
+}
+.footer .infor .noidung ul li{
+  text-decoration: none;
+  list-style: none;
+  margin-left: 60px
+}
+.footer .infor .noidung a{
+  color: #4f4f4f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2
+}
+.footer .infor .noidung a:hover{
+  color: #2F8E18
+}
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: #fff
+}
+footer .container{
+  height: 50px;
+  text-align: center;
+  
+}
